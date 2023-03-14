@@ -1,17 +1,16 @@
 class Form {
   constructor() {
-this.input = createInput("").attribute("placeholder", "Digite seu nome");
-this.playButton createButton("Play");
-this.input createInput("").attribute("placeholder", "Digite seu nome"); 
+this.input = createInput("").attribute("placeholder", "Digite seu nome"); 
+this.playButton = createButton("Play");
 this.titleImg = createImg("./assets/title.png", "título do jogo"); 
-this.greeting createElement("h2"); }
+this.greeting = createElement("h2"); }
 =    // CRIE OS ELEMENTOS DA CLASSE
   }
 
   setElementPosition() {
 this.titleImg.position (120, 100);
 this.input.position (width / 2 - 110, height/2 - 80);
-this.playButton.position (width / 2 - 90, height/2-20);
+this.playButton.position (width / 2 - 90, height/2 - 20);
 this.greeting.position (width / 2 - 300, height / 2 - 100);
     // DEFINA A POSIÇÃO DOS ELEMENTOS
   }
